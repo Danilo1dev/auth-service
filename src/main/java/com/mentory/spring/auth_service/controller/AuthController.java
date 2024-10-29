@@ -15,7 +15,7 @@ public class AuthController {
 
     @GetMapping("/buscar")
     public ResponseEntity<String> buscaDados() {
-        log.info("CONTROLLER: OK");
+        log.info("CONTROLLER: AUTH-SERVICE");
         return new ResponseEntity<>("OK", HttpStatus.OK);
     }
 }
