@@ -1,7 +1,7 @@
 package com.mentory.spring.auth_service;
 
-import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.junit.jupiter.api.Test;
 
 @SpringBootTest
 class AuthServiceApplicationTests {
@@ -9,5 +9,5 @@ class AuthServiceApplicationTests {
 	@Test
 	void contextLoads() {
 	}
-
 }
+
